@@ -88,7 +88,7 @@ public class Email {
         this.password = password;
         System.out.println("Setting password...");
     }
-    
+
     // method to change mailbox capacity
     public void setMailboxCapacity(int mailboxCapacity) {
         this.mailboxCapacity = mailboxCapacity;
@@ -101,6 +101,7 @@ public class Email {
         System.err.println("Setting alternate email...");
     }
 
+    // method to show information
     public void showInfo() {
         System.out.println("~~~~~~~~~~~~~~~~~~~~");
         System.out.println("Name: " + this.firstName + " " + this.lastName);
